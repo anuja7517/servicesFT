@@ -1,0 +1,21 @@
+<form [formGroup]="stdForm"(ngSubmit)="onStdSubmit()">
+    <div class="form-group">
+        <label for="fname">fname Name</label>
+        <input type="text" id="fname"formControlName="fname" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" id="fname" formControlName="lname" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="email">Email Name</label>
+        <input type="text" id="email" formControlName="email" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="contact">Contact Name</label>
+        <input type="text" id="contact" formControlName="contact" class="form-control">
+    </div>
+    <div class="text-right">
+        <button class="btn btn-primary">Add Student</button>
+    </div>
+</form>
