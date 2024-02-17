@@ -10,6 +10,7 @@
             <th>Last Name</th>
             <th>Email</th>
             <th>Contact</th>
+            <th>button</th>
         </tr>
     </thead>
     <tbody>
@@ -19,7 +20,7 @@
             <td>{{std.lname}}</td>
             <td>{{std.email}}</td>
             <td>{{std.contact}}</td>
-            <button class="btn btn-danger"(click)="ondelete(std.id)">Delete</button>
+            <td><button class="btn btn-danger"(click)="ondelete(std.id)">Delete</button></td>
         </tr>
     </tbody>
 
